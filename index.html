@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dabotics India</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo"> Dabotics <span>India</span></div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Service</a>
+			<a href="#">Contact</a>
+		<div class="search">
+			<input type="text" name=""  placeholder="Search here..">
+			<i class="fa fa-search" id="icon"></i>
+		</div>
+		<i class="fa fa-moon-o" id="mode" onclick="toggleTheme()"></i>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="left">
+			<h1> Welcome to <span> Dabotics</span> India.</h1>
+			<p>
+				We believe in nurturing your ideas and bringing them to life. From the conception stage to completion, we stand by your side and work with you every step of the way. Our mission is to help brands break free from traditional marketing and branding strategies and inspire them to be better. We don't just think outside the box, we toss the box aside and create new norms and trends that work in favor of our clients.
+			</p>
+			<br><br>
+			<a href="#">Read more</a>
+		</div>
+		<div class="right">
+			<img src="image/pic1.png">
+
+		</div>
+	</div>
+</header>
+
+<footer>
+	<div class="footer-container">
+		<div class="footer-content">
+			<h3>Dabotics India</h3>
+			<p>Your go-to place for innovative solutions and services.</p>
+		</div>
+		<div class="footer-social">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-whatsapp"></i>
+			<i class="fa fa-envelope"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-google"></i>
+		</div>
+	</div>
+</footer>
+
+<script>
+function toggleTheme() {
+	document.body.classList.toggle('dark-theme');
+	var icon = document.getElementById('mode');
+	icon.classList.toggle('fa-moon-o');
+	icon.classList.toggle('fa-sun-o');
+}
+</script>
+</body>
+</html>
